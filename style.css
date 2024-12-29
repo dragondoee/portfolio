@@ -6,10 +6,16 @@
 
 :root {
     --pink: #D571D3;
+    --gostpink: #d571d31c;
+    --gostblue: #03001fa8;
     --night: #03001f;
     --blue: #4C6DFF;
-    --green : #448E05;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 body {
     margin: 0;
@@ -119,7 +125,7 @@ button:hover {
     fill: var(--night);
     background-color: var(--pink);
     transition: ease 0.5s;
-    transform: scale(1.05);
+    transform: scale(105%);
 }
 
 
@@ -139,6 +145,7 @@ button:hover {
 .composant-header nav {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .composant-header ul {
@@ -169,7 +176,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 7vw;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .apropos div {
@@ -298,13 +305,20 @@ button:hover {
 }
 
 .projet-div {
+    background-color: var(--gostblue);
+    border: var(--pink) 1px solid;
+    box-shadow: 0 2px 7px var(--pink);
     border-radius: 10px;
+    min-width: 270px;
     width: 23vw;
     padding: 1.2vw;
+    transition: ease 0.5s;
 }
 
-.projet-div:hover {
-    background-color: #004464;
+.projet-div:hover{
+    background-color: var(--gostpink);
+    transform: scale(105%);
+    transition: ease 0.5s;
 }
 
 
@@ -312,19 +326,29 @@ button:hover {
 .projet-div img {
     width: 100%;
     border-radius: 10px;
+    border: var(--pink) 1px solid;
 }
 
 .projet-div h3 {
     margin: 10px 5px;
+    color: var(--blue);
 }
 
+.arbre{
+    position: absolute;
+    height: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
 
 .container-projet {
     display: flex;
-    gap: 10vh;
-    justify-content: space-between;
+    gap: 3vh;
+    justify-content: space-around;
     align-items: center;
-    margin: 10vh 10vw;
+    flex-wrap: wrap;
+    margin: 10vh 2vw;
 }
 
 .list1-projet,
@@ -333,7 +357,7 @@ button:hover {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 15vh;
+    gap: 3vh;
 }
 
 
@@ -369,7 +393,7 @@ button:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3vw;
+    gap: 5vh;
 }
 
 .container-temoignages div {
@@ -378,6 +402,11 @@ button:hover {
     box-shadow: 0 2px 7px var(--pink);
     padding: 2vw;
     border-radius: 15px;
+    transition: ease 0.5s;
+}
+.container-temoignages div:hover {
+    transition: ease 0.5s;
+    transform: scale(103%);
 }
 
 .container-temoignages h3 {
@@ -442,3 +471,64 @@ footer ul {
     z-index: 999;
 }
 
+
+/* Section Contact */
+.contact-section {
+    background-color: var(--gostpink);
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 2.5rem;
+    color: var(--pink);
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Infos de contact */
+  .contact-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .contact-info a {
+    color: var(--blue);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info a:hover {
+    color: var(--pink);
+  }
+  
+  /* Liens réseaux sociaux */
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 10px;
+    color: var(--blue);
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    transform: translateY(-3px);
+    color: var(--pink);
+  }
+  
+  .social-links i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+  }
+  
