@@ -124,42 +124,6 @@ button:hover {
 
 /* ======================================================= Header ======================================================= */
 
-header {
-    height: 100vh;
-}
-
-
-header nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 3vw;
-}
-
-header img {
-    width: 5vw;
-}
-
-header ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 50vw;
-    gap: 20px;
-    font-size: 1.1rem;
-}
-
-header a {
-    text-decoration: none;
-}
-
-.header a:hover {
-    text-decoration: underline;
-}
-
-
-/* ======================================================= Header 2 ======================================================= */
-
 .composant-header {
     width: 100%;
     position: relative;
@@ -260,7 +224,7 @@ header a {
     margin: 5vh auto;
 }
 
-
+/* NON RESPONSIVE */
 .img-potager img {
     width: auto;
     height: 50vh;
@@ -275,7 +239,6 @@ header a {
 
 .comp p {
     margin: 0;
-    /* font-family: "Audiowide", serif; */
 }
 
 .comp img {
@@ -386,15 +349,18 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1vw;
+    gap: 3vw;
+    flex-wrap: wrap;
 }
 
 .opquast div {
+    min-width: 250px;
     width: 30vw;
 }
 
 .opquast img {
-    width: 20vw;
+    min-width: 200px;
+    width: 25vw;
 }
 
 /* ======================================================= Témoignages ======================================================= */
