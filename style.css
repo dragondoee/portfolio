@@ -5,33 +5,28 @@
 }
 
 :root {
-    --color1: #4F0000;
-    --color2: #F4D1D1;
-  }
-
-
-  
-
-/* -------------------------------------------------------- Typographie ------------------------------------------------------- */
-
-.audiowide-regular {
-    font-family: "Audiowide", serif;
-    font-weight: 400;
-    font-style: normal;
+    --pink: #D571D3;
+    --night: #03001f;
+    --blue: #4C6DFF;
 }
 
-.poppins-regular {
+body {
+    margin: 0;
+    background-color: var(--night);
+    color: white;
     font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
 }
+
+
+
+/* ======================================================= Typographie ======================================================= */
 
 
 h1,
 h2,
 h3 {
     font-family: "Audiowide", serif;
-    color: white;
+    color: var(--pink);
 }
 
 
@@ -49,24 +44,27 @@ h3 {
     font-size: 1.5rem;
 }
 
-p,
-button,
-a,
-li {
-    font-family: "Poppins", serif;
-    color: white;
+
+main a {
+    display: block;
 }
 
-main a{
-  display: block;
+
+/* ======================================================= Générales ======================================================= */
+
+
+
+a {
+    color: var(--blue);
+    text-decoration: none;
 }
 
-/* -------------------------------------------------------- Générale ------------------------------------------------------- */
-
-body {
-    margin: 0;
-    background-color: #02061b;
+a:hover {
+    text-decoration: underline 2px;
 }
+
+
+
 
 ul {
     padding: 0;
@@ -80,7 +78,51 @@ section {
     margin: 25vh 0;
 }
 
-/* -------------------------------------------------------- Header ------------------------------------------------------- */
+/* ======================================================= Bouton style ======================================================= */
+
+.button-style,
+button {
+    font-family: "Audiowide", serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 44px;
+    max-width: 95vw;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 7px var(--pink);
+    transition: ease 0.5s;
+    z-index: 2;
+    margin: 2vh 5px;
+}
+
+.small-button {
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+.centerElem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.button-style:hover,
+.small-button:hover,
+button:hover {
+    text-align: center;
+    color: var(--night);
+    fill: var(--night);
+    background-color: var(--pink);
+    transition: ease 0.5s;
+    transform: scale(1.05);
+}
+
+
+/* ======================================================= Header ======================================================= */
 
 header {
     height: 100vh;
@@ -116,7 +158,46 @@ header a {
 }
 
 
-/* -------------------------------------------------------- Introduction ------------------------------------------------------- */
+/* ======================================================= Header 2 ======================================================= */
+
+.composant-header {
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+}
+
+.retourAccueil img {
+    margin-top: 20px;
+    width: 400px;
+}
+
+.composant-header nav {
+    display: flex;
+    align-items: center;
+}
+
+.composant-header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    max-width: 700px;
+    gap: 2vw;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+}
+
+.composant-header a {
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.composant-header a:hover {
+    text-decoration: underline;
+}
+
+/* ======================================================= Introduction ======================================================= */
 
 .apropos {
     display: flex;
@@ -139,22 +220,23 @@ header a {
     max-width: 450px;
 }
 
-.apropos h2{
+.apropos h2 {
     margin: 0;
 }
-.apropos h3{
+
+.apropos h3 {
     margin: 0 2vw;
     font-size: 1.4rem;
 }
 
-.apropos ul{
+.apropos ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
 
-/* -------------------------------------------------------- Compétences  ------------------------------------------------------- */
+/* ======================================================= Compétences ======================================================= */
 
 .container-competences {
     display: flex;
@@ -239,7 +321,7 @@ header a {
 
 
 
-/* -------------------------------------------------------- Projets ------------------------------------------------------- */
+/* ======================================================= Projets ======================================================= */
 
 .projet {
     position: relative;
@@ -256,7 +338,7 @@ header a {
     padding: 1.2vw;
 }
 
-.projet-div:hover{
+.projet-div:hover {
     background-color: #004464;
 }
 
@@ -297,7 +379,7 @@ header a {
 }
 
 
-/* -------------------------------------------------------- Opquast ------------------------------------------------------- */
+/* ======================================================= Opquast + A11y ======================================================= */
 
 .opquast {
     display: flex;
@@ -314,46 +396,53 @@ header a {
     width: 20vw;
 }
 
-/* -------------------------------------------------------- Témoignage ------------------------------------------------------- */
+/* ======================================================= Témoignages ======================================================= */
 
 
 .temoignages h2 {
     text-align: center;
 }
 
-.container-temoignages{
+.container-temoignages {
     margin: 10vh 0;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 3vw;
 }
 
-.container-temoignages div{
+.container-temoignages div {
     min-width: 270px;
     width: 40vw;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 2vw;
+    border-radius: 15px;
 }
 
-.container-temoignages h3{
+.container-temoignages h3 {
     font-size: 1.5rem;
 }
 
-.container-temoignages div span{
+.container-temoignages div span {
     display: flex;
     align-items: center;
     gap: 2vw;
 }
 
-.container-temoignages div img{
+.container-temoignages div img {
     width: 50px;
     border-radius: 90px;
 }
 
-/* -------------------------------------------------------- Footer ------------------------------------------------------- */
+/* ======================================================= Footer ======================================================= */
 
 
+footer {
+    margin: 20vh 0 5vh 0;
+    text-align: center;
+    /* font-size: 0.7rem; */
+    color: white;
+}
 
 footer ul {
     display: flex;
@@ -361,10 +450,10 @@ footer ul {
     gap: 5vw;
 }
 
-/* -------------------------------------------------------- A11y ------------------------------------------------------- */
+/* ======================================================= A11y ======================================================= */
 
 .skip-link {
-    color: #4F0000;
+    color: var(--pink);
     padding: 0.625em 0.9375em;
     text-decoration: none;
     margin-left: 170px;
@@ -391,3 +480,4 @@ footer ul {
     top: 0;
     z-index: 999;
 }
+
