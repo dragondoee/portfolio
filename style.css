@@ -8,6 +8,7 @@
     --pink: #D571D3;
     --night: #03001f;
     --blue: #4C6DFF;
+    --green : #448E05;
 }
 
 body {
@@ -189,7 +190,7 @@ button:hover {
 }
 
 .apropos h3 {
-    margin: 0 2vw;
+    margin: 0 3vw;
     font-size: 1.4rem;
 }
 
@@ -239,6 +240,8 @@ button:hover {
 
 .comp p {
     margin: 0;
+    color: var(--green);
+    font-family: "Audiowide", serif;
 }
 
 .comp img {
@@ -296,7 +299,6 @@ button:hover {
 }
 
 .projet-div {
-    background-color: darkgreen;
     border-radius: 10px;
     width: 23vw;
     padding: 1.2vw;
@@ -317,13 +319,6 @@ button:hover {
     margin: 10px 5px;
 }
 
-.arbre {
-    position: absolute;
-    z-index: -1;
-    width: 60vw;
-    left: 50%;
-    transform: translate(-50%);
-}
 
 .container-projet {
     display: flex;
