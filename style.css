@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color1: #4F0000;
+    --color2: #F4D1D1;
+  }
+
+
+  
+
 /* -------------------------------------------------------- Typographie ------------------------------------------------------- */
 
 .audiowide-regular {
@@ -49,7 +57,9 @@ li {
     color: white;
 }
 
-
+main a{
+  display: block;
+}
 
 /* -------------------------------------------------------- Générale ------------------------------------------------------- */
 
@@ -137,6 +147,12 @@ header a {
     font-size: 1.4rem;
 }
 
+.apropos ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
 
 /* -------------------------------------------------------- Compétences  ------------------------------------------------------- */
 
@@ -233,24 +249,26 @@ header a {
     text-align: center;
 }
 
-.container-projet div div {
+.projet-div {
     background-color: darkgreen;
     border-radius: 10px;
-    width: 33vw;
+    width: 23vw;
     padding: 1.2vw;
 }
 
-.container-projet div div img {
+.projet-div:hover{
+    background-color: #004464;
+}
+
+
+
+.projet-div img {
     width: 100%;
     border-radius: 10px;
 }
 
-.container-projet div h3 {
+.projet-div h3 {
     margin: 10px 5px;
-}
-
-.container-projet p {
-    margin: 0;
 }
 
 .arbre {
@@ -266,7 +284,7 @@ header a {
     gap: 10vh;
     justify-content: space-between;
     align-items: center;
-    margin: 10vh 5vw;
+    margin: 10vh 10vw;
 }
 
 .list1-projet,
