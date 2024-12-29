@@ -67,7 +67,7 @@ li {
 }
 
 section {
-    margin: 10vh 0;
+    margin: 25vh 0;
 }
 
 /* -------------------------------------------------------- Header ------------------------------------------------------- */
@@ -127,6 +127,14 @@ header a {
 .apropos img {
     width: 70vw;
     max-width: 450px;
+}
+
+.apropos h2{
+    margin: 0;
+}
+.apropos h3{
+    margin: 0 2vw;
+    font-size: 1.4rem;
 }
 
 
@@ -290,25 +298,31 @@ header a {
 
 /* -------------------------------------------------------- Témoignage ------------------------------------------------------- */
 
-.temoignages {
-    height: 80vh;
-}
 
 .temoignages h2 {
     text-align: center;
 }
 
 .container-temoignages{
+    margin: 10vh 0;
     display: flex;
-    justify-content: space-around ;
+    justify-content: center ;
     flex-wrap: wrap;
+    gap: 3vw;
 }
 
 .container-temoignages div{
-    width: 20vw;
+    min-width: 270px;
+    width: 40vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2vw;
 }
 
-.container-temoignages div div{
+.container-temoignages h3{
+    font-size: 1.5rem;
+}
+
+.container-temoignages div span{
     display: flex;
     align-items: center;
     gap: 2vw;
