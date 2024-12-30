@@ -131,7 +131,7 @@ button:hover {
 
 /* ======================================================= Header ======================================================= */
 
-header{
+header {
     height: 80vh;
 }
 
@@ -142,8 +142,8 @@ header{
 }
 
 .retourAccueil img {
-    margin-top: 20px;
-    width: 400px;
+    margin-top: 10px;
+    height: 70px;
 }
 
 .composant-header nav {
@@ -313,7 +313,7 @@ header{
         flex-wrap: wrap;
         gap: 5vw;
         margin: 0 10vw;
-        }
+    }
 
 
 }
@@ -364,7 +364,7 @@ header{
     position: absolute;
     width: 100%;
     height: 100vh;
-    overflow: hidden; 
+    overflow: hidden;
     z-index: -1;
 }
 
@@ -397,7 +397,7 @@ header{
 
 /* ======================================================= Pop-Up Projet ======================================================= */
 
-.popup{
+.popup {
     display: none;
     position: fixed;
     top: 0;
@@ -408,29 +408,36 @@ header{
     z-index: 2;
 }
 
-.boxe-popup{
+.boxe-popup {
     position: relative;
     width: 60vw;
-    height: 70vh;
+    height: auto;
     margin: 15vh auto;
     background-color: var(--night);
     border: var(--pink) 2px solid;
     border-radius: 10px;
 }
 
-.content-popup h3{
+.content-popup h2 {
     text-align: center;
 }
 
-.popup-bandeau{
+.popup-bandeau {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 2vw;
     flex-wrap: wrap;
+    margin: 0 2vw;
 }
 
-.detail{
+.popup-bandeau p {
+    border-radius: 5px;
+    border: var(--pink) 1px solid;
+    padding: 5px 10px;
+}
+
+.detail {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -439,17 +446,20 @@ header{
     margin: 3vh 3vw;
 }
 
-.detail p{
-    width: 40%; 
+.detail p {
+    width: 40%;
 }
 
-.detail img{
+.detail img {
     width: 50%;
     border-radius: 10px;
     border: var(--pink) 1px solid;
 }
 
-
+.content-popup a {
+    width: 10vw;
+    margin: 5vh auto;
+}
 
 .fermer {
     position: absolute;
@@ -483,17 +493,18 @@ header{
     .opquast {
         flex-direction: column;
     }
-    
+
     .opquast div {
         min-width: 250px;
         width: 70vw;
     }
-    
+
     .opquast img {
         width: 40vw;
     }
 }
-@media (max-width: 650px) { 
+
+@media (max-width: 650px) {
     .opquast img {
         min-width: 250px;
         width: 60vw;
@@ -650,4 +661,3 @@ footer ul {
     top: 0;
     z-index: 999;
 }
-

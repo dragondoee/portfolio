@@ -11,17 +11,17 @@ fetch('projets/projet.json').then(function (response) {
 
         function popupProjet(){
             content.innerHTML = `
-                <h3>${data[0].title}</h3>
+                <h2>${data[0].title}</h2>
                 <div class="popup-bandeau">
                     <p>${data[0].end_date}</p>
                     <p>${data[0].team_size}</p>
-                    <p>${data[0].development_type}</p>
+                    <p>${data[0].type}</p>
                 </div>
                 <div class="detail">
                     <img class="img-album" src="${data[0].image}" alt="">
                     <p>${data[0].description}</p>
                 </div>
-                <a href="${data[0].link}" class="" target="_blank"> Voir le site <a>
+                <a href="${data[0].link}" class="button-style small-button center-elem" target="_blank"> Voir le site <a>
             `
         }
             
@@ -32,16 +32,12 @@ fetch('projets/projet.json').then(function (response) {
         projets.forEach(function (projet) {
             projet.addEventListener("click", function () {
                 popupProjet()
-                popup.style.display = "block"
-                console.log(content)
-                console.log(fermer )
-                
+                popup.style.display = "block"             
             });
         });
         
 
         fermer.addEventListener("click", function () {
-            console.log("Bouton fermer cliqué !");
             popup.style.display = "none";
         });
         

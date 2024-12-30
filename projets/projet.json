@@ -4,7 +4,7 @@
         "end_date": "Juin 2024",
         "description": "Description concise et Compétences développées (rédiger de façon concise) ",
         "image":"projets/img/resaweb.png",
-        "link": "https://lien_du_projet.com",
+        "link": "https://resaweb.desgranges.butmmi.o2switch.site",
         "team_size": "seul",
         "type": "Projet Universitaire",
         "technologies": [
@@ -13,15 +13,14 @@
             "JavaScript",
             "PHP",
             "MySQL"
-        ],
-        "dev_type": "full stack"
+        ]
     },
     {
         "title": "CyberBlog 2059",
         "end_date": "Novembre 2024",
         "description": "Description détaillée du projet 2.",
         "image":"projets/img/blog.png",
-        "link": "https://lien_du_projet2.com",
+        "link": "https://blog.desgranges.butmmi.o2switch.site",
         "team_size": "seul",
         "type": "Projet Universitaire",
         "technologies": [
@@ -29,15 +28,14 @@
             "CSS",
             "PHP",
             "MySQL"
-        ],
-        "dev_type": "back-end"
+        ]
     },
     {
         "title": "DataMusic",
         "end_date": "Décembre 2024",
         "description": "Description détaillée du projet 2.",
         "image":"projets/img/dataviz.png",
-        "link": "https://lien_du_projet2.com",
+        "link": "https://andie4.github.io/DataMusic/",
         "team_size": "équipe de 3",
         "type": "Projet Universitaire",
         "technologies": [
@@ -45,37 +43,34 @@
             "CSS",
             "JavaScript",
             "Chart.js"
-        ],
-        "dev_type": "front-end"
+        ]
     },
     {
         "title": "Portrait Chinois",
         "end_date": "Décembre 2023",
         "description": "Description détaillée du projet 2.",
         "image":"projets/img/portrait-chinois.png",
-        "link": "https://lien_du_projet2.com",
+        "link": "https://dragondoee.github.io/portrait-chinois/",
         "team_size": "seul",
         "type": "Projet Universitaire",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript"
-        ],
-        "dev_type": "front-end"
+        ]
     },
     {
         "title": "Mermade",
         "end_date": "Décembre 2024",
         "description": "Nuit de l'info",
         "image":"projets/img/mermade.png",
-        "link": "https://lien_du_projet2.com",
+        "link": "https://dragondoee.github.io/mermade/",
         "team_size": "équipe de 8",
         "type": "Projet Universitaire",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript"
-        ],
-        "dev_type": "front-end"
+        ]
     }
 ]
