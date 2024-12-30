@@ -2,7 +2,7 @@
     {
         "title": "Quest & Coffee",
         "end_date": "Juin 2024",
-        "description": "Description concise et Compétences développées (rédiger de façon concise) ",
+        "description": "Quest & Coffee est un studio de jeux vidéo mais aussi un café qui propose des salles à thèmes en rapport avec ses jeux. Leur site permet de réserver une place dans une des salles ainsi que commander des boissons à l'avance. Certaines fonctionnalités étaient exigées, permettant quelques interactions simples pour le client (recherche, filtre, formulaire, mail…) et exploitant une base de données.",
         "image":"projets/img/resaweb.png",
         "link": "https://resaweb.desgranges.butmmi.o2switch.site",
         "team_size": "seul",

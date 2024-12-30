@@ -9,29 +9,31 @@ const content = document.querySelector(".content-popup")
 fetch('projets/projet.json').then(function (response) {
     response.json().then(function (data) {
 
-        function popupProjet(){
+        function popupProjet(projet){
+            let technologiesHTML = projet.technologies.map(tech => `<p class="dev-lang">${tech}</p>`).join('');
+
             content.innerHTML = `
-                <h2>${data[0].title}</h2>
+                <h2>${projet.title}</h2>
                 <div class="popup-bandeau">
-                    <p>${data[0].end_date}</p>
-                    <p>${data[0].team_size}</p>
-                    <p>${data[0].type}</p>
+                    <p class="tag">${projet.end_date}</p>
+                    <p class="tag">${projet.team_size}</p>
+                    <p class="tag">${projet.type}</p>
+                    ${technologiesHTML}
                 </div>
                 <div class="detail">
-                    <img class="img-album" src="${data[0].image}" alt="">
-                    <p>${data[0].description}</p>
+                    <img class="img-album" src="${projet.image}" alt="">
+                    <p>${projet.description}</p>
                 </div>
-                <a href="${data[0].link}" class="button-style small-button center-elem" target="_blank"> Voir le site <a>
+                <a href="${projet.link}" class="button-style small-button center-elem" target="_blank"> Voir le site <a>
             `
         }
             
         
         
-        
-        
         projets.forEach(function (projet) {
             projet.addEventListener("click", function () {
-                popupProjet()
+                projet = data[1]
+                popupProjet(projet)
                 popup.style.display = "block"             
             });
         });

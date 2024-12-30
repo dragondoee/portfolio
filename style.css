@@ -410,7 +410,7 @@ header {
 
 .boxe-popup {
     position: relative;
-    width: 60vw;
+    width: 80vw;
     height: auto;
     margin: 15vh auto;
     background-color: var(--night);
@@ -431,27 +431,33 @@ header {
     margin: 0 2vw;
 }
 
-.popup-bandeau p {
+.tag {
     border-radius: 5px;
     border: var(--pink) 1px solid;
     padding: 5px 10px;
 }
 
+.dev-lang{
+    border-radius: 5px;
+    border: var(--blue) 1px solid;
+    padding: 5px 10px;
+}
+
 .detail {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 2vw;
+    gap: 3vw;
     flex-wrap: wrap;
     margin: 3vh 3vw;
 }
 
 .detail p {
-    width: 40%;
+    width: 50%;
 }
 
 .detail img {
-    width: 50%;
+    width: 40%;
     border-radius: 10px;
     border: var(--pink) 1px solid;
 }
