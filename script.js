@@ -15,10 +15,14 @@ fetch('projets/projet.json').then(function (response) {
             content.innerHTML = `
                 <h2>${dataProjet.title}</h2>
                 <div class="popup-bandeau">
+                <div class="tag-container">
                     <p class="tag">${dataProjet.end_date}</p>
                     <p class="tag">${dataProjet.team_size}</p>
                     <p class="tag">${dataProjet.type}</p>
+                </div>
+                <div class="dev-lang-container">
                     ${technologiesHTML}
+                </div>
                 </div>
                 <div class="detail">
                     <img class="img-album" src="${dataProjet.image}" alt="">
