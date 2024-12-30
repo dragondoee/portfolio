@@ -1,5 +1,20 @@
 [
     {
+        "title": "CyberBlog 2059",
+        "end_date": "Novembre 2024",
+        "description": "Description détaillée du projet 2.",
+        "image":"projets/img/blog.png",
+        "link": "https://blog.desgranges.butmmi.o2switch.site",
+        "team_size": "seul",
+        "type": "Projet Universitaire",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    {
         "title": "Quest & Coffee",
         "end_date": "Juin 2024",
         "description": "Quest & Coffee est un studio de jeux vidéo mais aussi un café qui propose des salles à thèmes en rapport avec ses jeux. Leur site permet de réserver une place dans une des salles ainsi que commander des boissons à l'avance. Certaines fonctionnalités étaient exigées, permettant quelques interactions simples pour le client (recherche, filtre, formulaire, mail…) et exploitant une base de données.",
@@ -11,21 +26,6 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "PHP",
-            "MySQL"
-        ]
-    },
-    {
-        "title": "CyberBlog 2059",
-        "end_date": "Novembre 2024",
-        "description": "Description détaillée du projet 2.",
-        "image":"projets/img/blog.png",
-        "link": "https://blog.desgranges.butmmi.o2switch.site",
-        "team_size": "seul",
-        "type": "Projet Universitaire",
-        "technologies": [
-            "HTML",
-            "CSS",
             "PHP",
             "MySQL"
         ]
@@ -46,20 +46,6 @@
         ]
     },
     {
-        "title": "Portrait Chinois",
-        "end_date": "Décembre 2023",
-        "description": "Description détaillée du projet 2.",
-        "image":"projets/img/portrait-chinois.png",
-        "link": "https://dragondoee.github.io/portrait-chinois/",
-        "team_size": "seul",
-        "type": "Projet Universitaire",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript"
-        ]
-    },
-    {
         "title": "Mermade",
         "end_date": "Décembre 2024",
         "description": "Nuit de l'info",
@@ -72,5 +58,19 @@
             "CSS",
             "JavaScript"
         ]
-    }
+    },
+    {
+        "title": "Portrait Chinois",
+        "end_date": "Décembre 2023",
+        "description": "Description détaillée du projet 2.",
+        "image":"projets/img/portrait-chinois.png",
+        "link": "https://dragondoee.github.io/portrait-chinois/",
+        "team_size": "seul",
+        "type": "Projet Universitaire",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    }    
 ]

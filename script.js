@@ -9,31 +9,30 @@ const content = document.querySelector(".content-popup")
 fetch('projets/projet.json').then(function (response) {
     response.json().then(function (data) {
 
-        function popupProjet(projet){
-            let technologiesHTML = projet.technologies.map(tech => `<p class="dev-lang">${tech}</p>`).join('');
+        function popupProjet(dataProjet){
+            let technologiesHTML = dataProjet.technologies.map(tech => `<p class="dev-lang">${tech}</p>`).join('');
 
             content.innerHTML = `
-                <h2>${projet.title}</h2>
+                <h2>${dataProjet.title}</h2>
                 <div class="popup-bandeau">
-                    <p class="tag">${projet.end_date}</p>
-                    <p class="tag">${projet.team_size}</p>
-                    <p class="tag">${projet.type}</p>
+                    <p class="tag">${dataProjet.end_date}</p>
+                    <p class="tag">${dataProjet.team_size}</p>
+                    <p class="tag">${dataProjet.type}</p>
                     ${technologiesHTML}
                 </div>
                 <div class="detail">
-                    <img class="img-album" src="${projet.image}" alt="">
-                    <p>${projet.description}</p>
+                    <img class="img-album" src="${dataProjet.image}" alt="">
+                    <p>${dataProjet.description}</p>
                 </div>
-                <a href="${projet.link}" class="button-style small-button center-elem" target="_blank"> Voir le site <a>
+                <a href="${dataProjet.link}" class="button-style small-button center-elem" target="_blank"> Voir le site <a>
             `
         }
-            
+         
         
-        
-        projets.forEach(function (projet) {
+        projets.forEach(function (projet, index) {
             projet.addEventListener("click", function () {
-                projet = data[1]
-                popupProjet(projet)
+                const dataProjet = data[index]
+                popupProjet(dataProjet)
                 popup.style.display = "block"             
             });
         });
