@@ -14,8 +14,8 @@
 
 html {
     scroll-behavior: smooth;
-  }
-  
+}
+
 
 body {
     margin: 0;
@@ -125,7 +125,7 @@ button:hover {
     fill: var(--night);
     background-color: var(--pink);
     transition: ease 0.5s;
-    transform: scale(105%);
+    transform: scale(1.15);
 }
 
 
@@ -232,11 +232,13 @@ button:hover {
     margin: 5vh auto;
 }
 
-/* NON RESPONSIVE */
+
 .img-potager img {
     width: auto;
     height: 50vh;
 }
+
+
 
 .comp {
     display: flex;
@@ -293,6 +295,25 @@ button:hover {
 }
 
 
+@media(max-width:600px) {
+
+    .img-potager img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .container-comp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5vw;
+        margin: 0 10vw;
+        }
+
+
+}
+
 
 /* ======================================================= Projets ======================================================= */
 
@@ -315,9 +336,9 @@ button:hover {
     transition: ease 0.5s;
 }
 
-.projet-div:hover{
+.projet-div:hover {
     background-color: var(--gostpink);
-    transform: scale(105%);
+    transform: scale(1.05);
     transition: ease 0.5s;
 }
 
@@ -334,13 +355,22 @@ button:hover {
     color: var(--blue);
 }
 
-.arbre{
+.image-wrapper {
     position: absolute;
-    height: 80%;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; 
+    z-index: -1;
+}
+
+.arbre {
+    position: absolute;
+    height: 100%;
     left: 50%;
     transform: translate(-50%);
     z-index: -1;
 }
+
 
 .container-projet {
     display: flex;
@@ -377,8 +407,28 @@ button:hover {
 }
 
 .opquast img {
-    min-width: 200px;
     width: 25vw;
+}
+
+@media (max-width: 950px) {
+    .opquast {
+        flex-direction: column;
+    }
+    
+    .opquast div {
+        min-width: 250px;
+        width: 70vw;
+    }
+    
+    .opquast img {
+        width: 40vw;
+    }
+}
+@media (max-width: 650px) { 
+    .opquast img {
+        min-width: 250px;
+        width: 60vw;
+    }
 }
 
 /* ======================================================= Témoignages ======================================================= */
@@ -396,7 +446,7 @@ button:hover {
     gap: 5vh;
 }
 
-.container-temoignages div {
+.temoignage-div {
     min-width: 270px;
     width: 40vw;
     box-shadow: 0 2px 7px var(--pink);
@@ -404,24 +454,85 @@ button:hover {
     border-radius: 15px;
     transition: ease 0.5s;
 }
-.container-temoignages div:hover {
+
+.temoignage-div:hover {
     transition: ease 0.5s;
-    transform: scale(103%);
+    transform: scale(1.03);
 }
 
 .container-temoignages h3 {
     font-size: 1.5rem;
 }
 
-.container-temoignages div span {
+.bandeau {
     display: flex;
     align-items: center;
     gap: 2vw;
 }
 
-.container-temoignages div img {
+.temoignage-div img {
     width: 50px;
     border-radius: 90px;
+}
+
+
+/* ======================================================= Contact ======================================================= */
+
+.contact-section {
+    background-color: var(--gostpink);
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 2.5rem;
+    color: var(--pink);
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: var(--blue);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: var(--pink);
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 10px;
+    color: var(--blue);
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+    color: var(--pink);
+}
+
+.social-links i {
+    margin-right: 8px;
+    font-size: 1.2rem;
 }
 
 /* ======================================================= Footer ======================================================= */
@@ -471,64 +582,3 @@ footer ul {
     z-index: 999;
 }
 
-
-/* Section Contact */
-.contact-section {
-    background-color: var(--gostpink);
-    padding: 60px 20px;
-    color: white;
-    text-align: center;
-  }
-  
-  .contact-section h2 {
-    font-family: 'Audiowide', sans-serif;
-    font-size: 2.5rem;
-    color: var(--pink);
-    margin-bottom: 20px;
-  }
-  
-  .contact-section p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-  
-  /* Infos de contact */
-  .contact-info p {
-    font-size: 1rem;
-    margin: 10px 0;
-  }
-  
-  .contact-info a {
-    color: var(--blue);
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .contact-info a:hover {
-    color: var(--pink);
-  }
-  
-  /* Liens réseaux sociaux */
-  .social-links {
-    margin-top: 20px;
-  }
-  
-  .social-links a {
-    display: inline-block;
-    font-size: 1.1rem;
-    margin: 10px;
-    color: var(--blue);
-    text-decoration: none;
-    transition: transform 0.3s ease, color 0.3s ease;
-  }
-  
-  .social-links a:hover {
-    transform: translateY(-3px);
-    color: var(--pink);
-  }
-  
-  .social-links i {
-    margin-right: 8px;
-    font-size: 1.2rem;
-  }
-  
