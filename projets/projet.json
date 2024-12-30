@@ -3,85 +3,74 @@
         "title": "Quest & Coffee",
         "end_date": "Juin 2024",
         "description": "Description détaillée du projet 1.",
-        "images": [
-            "url_de_l_image_1.jpg",
-            "url_de_l_image_2.jpg"
-        ],
+        "image":"",
         "link": "https://lien_du_projet.com",
         "team_size": 1,
         "technologies": [
+            "HTML",
+            "CSS",
             "JavaScript",
-            "React",
-            "Node.js"
+            "PHP",
+            "MySQL"
         ],
         "development_type": "full stack"
     },
     {
-        "title": "Titre du projet 2",
-        "end_date": "YYYY-MM-DD",
+        "title": "CyberBlog 2059",
+        "end_date": "Novembre 2024",
         "description": "Description détaillée du projet 2.",
-        "images": [
-            "url_de_l_image_1.jpg",
-            "url_de_l_image_2.jpg"
-        ],
+        "image":"",
         "link": "https://lien_du_projet2.com",
-        "team_size": 3,
+        "team_size": 1,
         "technologies": [
-            "Python",
-            "Django",
-            "PostgreSQL"
+            "HTML",
+            "CSS",
+            "PHP",
+            "MySQL"
         ],
-        "development_type": "back"
+        "development_type": "back-end"
     },
     {
-        "title": "Titre du projet 2",
-        "end_date": "YYYY-MM-DD",
+        "title": "DataMusic",
+        "end_date": "Décembre 2024",
         "description": "Description détaillée du projet 2.",
-        "images": [
-            "url_de_l_image_1.jpg",
-            "url_de_l_image_2.jpg"
-        ],
+        "image":"",
         "link": "https://lien_du_projet2.com",
         "team_size": 3,
         "technologies": [
-            "Python",
-            "Django",
-            "PostgreSQL"
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Chart.js"
         ],
-        "development_type": "back"
+        "development_type": "front-end"
     },
     {
-        "title": "Titre du projet 2",
-        "end_date": "YYYY-MM-DD",
+        "title": "Portrait Chinois",
+        "end_date": "Décembre 2023",
         "description": "Description détaillée du projet 2.",
-        "images": [
-            "url_de_l_image_1.jpg",
-            "url_de_l_image_2.jpg"
-        ],
+        "image":"",
         "link": "https://lien_du_projet2.com",
-        "team_size": 3,
+        "team_size": 1,
         "technologies": [
-            "Python",
-            "Django",
-            "PostgreSQL"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
-        "development_type": "back"
+        "development_type": "front-end"
     },
     {
-        "title": "Titre du projet 2",
-        "end_date": "YYYY-MM-DD",
-        "description": "Description détaillée du projet 2.",
-        "images": [
-            "url_de_l_image_1.jpg",
-            "url_de_l_image_2.jpg"
-        ],
+        "title": "Mermade",
+        "end_date": "Décembre 2024",
+        "description": "Nuit de l'info",
+        "image":"",
         "link": "https://lien_du_projet2.com",
-        "team_size": 3,
+        "team_size": 8,
         "technologies": [
-            "Python",
-            "Django",
-            "PostgreSQL"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ],
-        "development_type": "back"
+        "development_type": "front-end"
     }
 ]
