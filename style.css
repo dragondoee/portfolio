@@ -408,7 +408,7 @@ header{
     z-index: 2;
 }
 
-.popup div{
+.boxe-popup{
     position: relative;
     width: 60vw;
     height: 70vh;
@@ -416,14 +416,47 @@ header{
     background-color: var(--night);
     border: var(--pink) 2px solid;
     border-radius: 10px;
-    z-index: 3;
 }
+
+.content-popup h3{
+    text-align: center;
+}
+
+.popup-bandeau{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+    margin: 3vh 3vw;
+}
+
+.detail p{
+    width: 40%; 
+}
+
+.detail img{
+    width: 50%;
+    border-radius: 10px;
+    border: var(--pink) 1px solid;
+}
+
+
 
 .fermer {
     position: absolute;
     right: 10px;
     top: 0px;
     font-weight: bold;
+    z-index: 3;
 }
 
 

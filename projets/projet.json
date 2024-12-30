@@ -2,10 +2,11 @@
     {
         "title": "Quest & Coffee",
         "end_date": "Juin 2024",
-        "description": "Description détaillée du projet 1.",
-        "image":"",
+        "description": "Description concise et Compétences développées (rédiger de façon concise) ",
+        "image":"projets/img/resaweb.png",
         "link": "https://lien_du_projet.com",
-        "team_size": 1,
+        "team_size": "seul",
+        "type": "Projet Universitaire",
         "technologies": [
             "HTML",
             "CSS",
@@ -13,64 +14,68 @@
             "PHP",
             "MySQL"
         ],
-        "development_type": "full stack"
+        "dev_type": "full stack"
     },
     {
         "title": "CyberBlog 2059",
         "end_date": "Novembre 2024",
         "description": "Description détaillée du projet 2.",
-        "image":"",
+        "image":"projets/img/blog.png",
         "link": "https://lien_du_projet2.com",
-        "team_size": 1,
+        "team_size": "seul",
+        "type": "Projet Universitaire",
         "technologies": [
             "HTML",
             "CSS",
             "PHP",
             "MySQL"
         ],
-        "development_type": "back-end"
+        "dev_type": "back-end"
     },
     {
         "title": "DataMusic",
         "end_date": "Décembre 2024",
         "description": "Description détaillée du projet 2.",
-        "image":"",
+        "image":"projets/img/dataviz.png",
         "link": "https://lien_du_projet2.com",
-        "team_size": 3,
+        "team_size": "équipe de 3",
+        "type": "Projet Universitaire",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript",
             "Chart.js"
         ],
-        "development_type": "front-end"
+        "dev_type": "front-end"
     },
     {
         "title": "Portrait Chinois",
         "end_date": "Décembre 2023",
         "description": "Description détaillée du projet 2.",
-        "image":"",
+        "image":"projets/img/portrait-chinois.png",
         "link": "https://lien_du_projet2.com",
-        "team_size": 1,
+        "team_size": "seul",
+        "type": "Projet Universitaire",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript"
         ],
-        "development_type": "front-end"
+        "dev_type": "front-end"
     },
     {
         "title": "Mermade",
         "end_date": "Décembre 2024",
         "description": "Nuit de l'info",
-        "image":"",
+        "image":"projets/img/mermade.png",
         "link": "https://lien_du_projet2.com",
-        "team_size": 8,
+        "team_size": "équipe de 8",
+        "type": "Projet Universitaire",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript"
         ],
-        "development_type": "front-end"
+        "dev_type": "front-end"
     }
 ]
