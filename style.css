@@ -131,6 +131,10 @@ button:hover {
 
 /* ======================================================= Header ======================================================= */
 
+header{
+    height: 80vh;
+}
+
 .composant-header {
     width: 100%;
     position: relative;
@@ -334,6 +338,7 @@ button:hover {
     width: 23vw;
     padding: 1.2vw;
     transition: ease 0.5s;
+    cursor: pointer;
 }
 
 .projet-div:hover {
@@ -388,6 +393,37 @@ button:hover {
     justify-content: space-around;
     align-items: center;
     gap: 3vh;
+}
+
+/* ======================================================= Pop-Up Projet ======================================================= */
+
+.popup{
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--gostblue);
+    z-index: 2;
+}
+
+.popup div{
+    position: relative;
+    width: 60vw;
+    height: 70vh;
+    margin: 15vh auto;
+    background-color: var(--night);
+    border: var(--pink) 2px solid;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.fermer {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-weight: bold;
 }
 
 

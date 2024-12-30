@@ -1,0 +1,87 @@
+[
+    {
+        "title": "Quest & Coffee",
+        "end_date": "Juin 2024",
+        "description": "Description détaillée du projet 1.",
+        "images": [
+            "url_de_l_image_1.jpg",
+            "url_de_l_image_2.jpg"
+        ],
+        "link": "https://lien_du_projet.com",
+        "team_size": 1,
+        "technologies": [
+            "JavaScript",
+            "React",
+            "Node.js"
+        ],
+        "development_type": "full stack"
+    },
+    {
+        "title": "Titre du projet 2",
+        "end_date": "YYYY-MM-DD",
+        "description": "Description détaillée du projet 2.",
+        "images": [
+            "url_de_l_image_1.jpg",
+            "url_de_l_image_2.jpg"
+        ],
+        "link": "https://lien_du_projet2.com",
+        "team_size": 3,
+        "technologies": [
+            "Python",
+            "Django",
+            "PostgreSQL"
+        ],
+        "development_type": "back"
+    },
+    {
+        "title": "Titre du projet 2",
+        "end_date": "YYYY-MM-DD",
+        "description": "Description détaillée du projet 2.",
+        "images": [
+            "url_de_l_image_1.jpg",
+            "url_de_l_image_2.jpg"
+        ],
+        "link": "https://lien_du_projet2.com",
+        "team_size": 3,
+        "technologies": [
+            "Python",
+            "Django",
+            "PostgreSQL"
+        ],
+        "development_type": "back"
+    },
+    {
+        "title": "Titre du projet 2",
+        "end_date": "YYYY-MM-DD",
+        "description": "Description détaillée du projet 2.",
+        "images": [
+            "url_de_l_image_1.jpg",
+            "url_de_l_image_2.jpg"
+        ],
+        "link": "https://lien_du_projet2.com",
+        "team_size": 3,
+        "technologies": [
+            "Python",
+            "Django",
+            "PostgreSQL"
+        ],
+        "development_type": "back"
+    },
+    {
+        "title": "Titre du projet 2",
+        "end_date": "YYYY-MM-DD",
+        "description": "Description détaillée du projet 2.",
+        "images": [
+            "url_de_l_image_1.jpg",
+            "url_de_l_image_2.jpg"
+        ],
+        "link": "https://lien_du_projet2.com",
+        "team_size": 3,
+        "technologies": [
+            "Python",
+            "Django",
+            "PostgreSQL"
+        ],
+        "development_type": "back"
+    }
+]
