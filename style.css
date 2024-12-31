@@ -773,22 +773,18 @@ footer ul {
     z-index: 999;
 }
 
-
-/* Styles généraux pour le focus visible */
 :focus {
-    outline: 2px solid var(--pink); /* Bordure principale rose */
-    outline-offset: 4px; /* Distance entre la bordure et l'élément */
-    box-shadow: 0 0 5px var(--gostpink), 0 0 10px var(--pink); /* Effet lumineux */
+    outline: 2px solid var(--pink); 
+    outline-offset: 4px; 
+    box-shadow: 0 0 5px var(--gostpink), 0 0 10px var(--pink); 
 }
 
-/* Pour les boutons ou les liens */
 button:focus, 
 a:focus {
-    background-color: var(--gostblue); /* Fond bleu semi-transparent */
-    color: var(--pink); /* Texte rose */
+    background-color: var(--gostblue);
+    color: var(--pink);
 }
 
-/* Accessibilité supplémentaire : focus visible uniquement si le clavier est utilisé */
 :focus:not(:focus-visible) {
-    outline: none; /* Désactiver le focus par défaut si la souris est utilisée */
+    outline: none;
 }
