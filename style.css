@@ -131,9 +131,6 @@ button:hover {
 
 /* ======================================================= Header ======================================================= */
 
-header {
-    height: 80vh;
-}
 
 .composant-header {
     width: 100%;
@@ -190,7 +187,12 @@ header {
 
 /* ======================================================= Introduction ======================================================= */
 
+h1{
+    text-align: center;
+}
+
 .apropos {
+    margin: 10vh auto;
     display: flex;
     justify-content: center;
     align-items: center;
