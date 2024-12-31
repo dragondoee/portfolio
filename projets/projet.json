@@ -2,10 +2,10 @@
     {
         "title": "CyberBlog 2059",
         "end_date": "Novembre 2024",
-        "description": "Description détaillée du projet 2.",
+        "description": "CyberBlog 2059 est un blog sur l'univers Cyberpunk réalisé en PHP avec le modèle MVC (modèle, vu, contrôleur). Le but était de travailler sur la gestion des sessions utilisateur et de créer un back-office. Le propriétaire du blog, et aussi admin, peut publier, supprimé des posts, gérer les commentaires et les utilisateurs. N'importe qui peut s'inscrire pour participer à la vie du blog en postant des commentaires. J'ai pu approfondir mes compétences en développement back-end.",
         "image":"projets/img/blog.png",
         "link": "https://blog.desgranges.butmmi.o2switch.site",
-        "team_size": "seul",
+        "team_size": "Seule",
         "type": "Projet Universitaire",
         "technologies": [
             "HTML",
@@ -17,10 +17,10 @@
     {
         "title": "Quest & Coffee",
         "end_date": "Juin 2024",
-        "description": "Quest & Coffee est un studio de jeux vidéo mais aussi un café qui propose des salles à thèmes en rapport avec ses jeux. Leur site permet de réserver une place dans une des salles ainsi que commander des boissons à l'avance. Certaines fonctionnalités étaient exigées, permettant quelques interactions simples pour le client (recherche, filtre, formulaire, mail…) et exploitant une base de données.",
+        "description": "Quest & Coffee est un studio de jeux vidéo, mais aussi un café qui propose des salles à thèmes en rapport avec ses jeux. Leur site permet de réserver une place dans une des salles ainsi que de commander des boissons à l'avance. Certaines fonctionnalités étaient exigées, permettant quelques interactions simples pour le client (recherche, filtre, formulaire, mail…) et exploitant une base de données. Ce projet m'a permis d'apprendre les bases du développement back-end et d'approfondir mes connaissances en front-end.",
         "image":"projets/img/resaweb.png",
         "link": "https://resaweb.desgranges.butmmi.o2switch.site",
-        "team_size": "seul",
+        "team_size": "Seule",
         "type": "Projet Universitaire",
         "technologies": [
             "HTML",
@@ -33,10 +33,10 @@
     {
         "title": "DataMusic",
         "end_date": "Décembre 2024",
-        "description": "Description détaillée du projet 2.",
+        "description": "DataMusic est un site de visualisation interactive sur l'évolution des revenus dans l'industrie musicale. Ce projet m'a permis de manipuler des outils spécialisés comme Chart.js, tout en renforçant mes compétences en JavaScript. En plus de présenter des graphiques dynamiques, le site respecte les normes légales avec une page « Mentions légales » complète et conforme. Ce travail m’a offert une nouvelle perspective sur l’importance de la présentation des données et l’accessibilité de l’information. ",
         "image":"projets/img/dataviz.png",
         "link": "https://andie4.github.io/DataMusic/",
-        "team_size": "équipe de 3",
+        "team_size": "Équipe de 3",
         "type": "Projet Universitaire",
         "technologies": [
             "HTML",
@@ -48,10 +48,10 @@
     {
         "title": "Mermade",
         "end_date": "Décembre 2024",
-        "description": "Nuit de l'info",
+        "description": "MerMade est un site réalisé pendant la Nuit de l'Info 2025, un événement annuel national. Nous avons eu 16h pour produire un site web sur le thème de la pollution des océans. Un sujet proposé par l'association Race for Water. Nous avions 5 défis secondaires, dont un mini jeu qui fait la comparaison entre l'océan et le corps humain. J'étais cheffe d'équipe, composé de 8 personnes, 3 profils créatif et 5 développeurs. Je me suis occupé de développer le jeu en JavaScript.",
         "image":"projets/img/mermade.png",
         "link": "https://dragondoee.github.io/mermade/",
-        "team_size": "équipe de 8",
+        "team_size": "Équipe de 8",
         "type": "Projet Universitaire",
         "technologies": [
             "HTML",
@@ -62,10 +62,10 @@
     {
         "title": "Portrait Chinois",
         "end_date": "Décembre 2023",
-        "description": "Description détaillée du projet 2.",
+        "description": "Ce premier site web, one page, nous a permis de nous présenter avec 7 sujets sous la forme d'un portrait chinois. C'est une manière originale d'en apprendre plus sur notre personnalité sous la forme de « Si j'étais... Je serais...» et d'apprendre les bases du développement web front-end. Ce projet a également permis une première approche des règles de qualité web Opquast.",
         "image":"projets/img/portrait-chinois.png",
         "link": "https://dragondoee.github.io/portrait-chinois/",
-        "team_size": "seul",
+        "team_size": "Seule",
         "type": "Projet Universitaire",
         "technologies": [
             "HTML",
