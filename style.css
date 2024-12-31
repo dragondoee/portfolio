@@ -355,9 +355,20 @@ header {
     border: var(--pink) 1px solid;
 }
 
-.projet-div h3 {
+.projet-div button  {
     margin: 10px 5px;
     color: var(--blue);
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: var(--pink);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0;
+}
+
+.projet-div button:hover{
+    transform: none;
 }
 
 .image-wrapper {
@@ -737,7 +748,7 @@ footer ul {
     color: var(--pink);
     padding: 0.625em 0.9375em;
     text-decoration: none;
-    margin-left: 170px;
+    margin-left: 320px;
     margin-top: 35px;
     font-size: 1.1rem;
 }
@@ -760,4 +771,24 @@ footer ul {
     position: absolute;
     top: 0;
     z-index: 999;
+}
+
+
+/* Styles généraux pour le focus visible */
+:focus {
+    outline: 2px solid var(--pink); /* Bordure principale rose */
+    outline-offset: 4px; /* Distance entre la bordure et l'élément */
+    box-shadow: 0 0 5px var(--gostpink), 0 0 10px var(--pink); /* Effet lumineux */
+}
+
+/* Pour les boutons ou les liens */
+button:focus, 
+a:focus {
+    background-color: var(--gostblue); /* Fond bleu semi-transparent */
+    color: var(--pink); /* Texte rose */
+}
+
+/* Accessibilité supplémentaire : focus visible uniquement si le clavier est utilisé */
+:focus:not(:focus-visible) {
+    outline: none; /* Désactiver le focus par défaut si la souris est utilisée */
 }
