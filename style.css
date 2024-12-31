@@ -173,6 +173,21 @@ header {
     text-decoration: underline;
 }
 
+/* Responsive */
+@media (max-width: 450px) {
+    .composant-header a {
+        font-size: 1rem;
+    }
+
+    .composant-header ul{
+        margin: 0;
+    }
+
+    .composant-header {
+        padding: 0;
+    }
+}
+
 /* ======================================================= Introduction ======================================================= */
 
 .apropos {
